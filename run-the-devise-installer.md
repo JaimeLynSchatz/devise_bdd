@@ -5,13 +5,7 @@ title: Run the Devise installer
 
 <h1 id="main">Run the Devise installer</h1>
 
-
-Run this command:
-
-```sh
-
-$ rails generate devise:install
-```###Create file `config/initializers/devise.rb`
+###Create file `config/initializers/devise.rb`
 
 ####Add
 ```

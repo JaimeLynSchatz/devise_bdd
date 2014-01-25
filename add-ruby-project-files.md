@@ -5,8 +5,7 @@ title: Add Ruby project files
 
 <h1 id="main">Add Ruby project files</h1>
 
-
-Useful for keeping gemsets distinct between projects.###Create file `.ruby-gemset`
+###Create file `.ruby-gemset`
 
 ####Add
 ```

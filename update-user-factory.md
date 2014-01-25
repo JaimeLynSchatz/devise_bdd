@@ -5,8 +5,7 @@ title: Update user factory
 
 <h1 id="main">Update user factory</h1>
 
-
-Set email and password###Update file `spec/factories/users.rb`
+###Update file `spec/factories/users.rb`
 
 ####Add
 ```
@@ -17,7 +16,6 @@ Set email and password###Update file `spec/factories/users.rb`
 
 ####Becomes
 ```
- # Read about factories at https://github.com/thoughtbot/factory_girl
  
  FactoryGirl.define do
    factory :user do

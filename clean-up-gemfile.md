@@ -5,10 +5,7 @@ title: Clean up Gemfile
 
 <h1 id="main">Clean up Gemfile</h1>
 
-
-Remove comments and sort.
-
-Much of programming time is spent reading.  By improving organization of this file, it will be easier to review it as we add more and more gems in the future.###Update file `Gemfile`
+###Update file `Gemfile`
 
 ####Remove
 ```
@@ -93,30 +90,6 @@ Much of programming time is spent reading.  By improving organization of this fi
 ```
 
 
-####Remove
-```
- end
- 
- # Use ActiveModel has_secure_password
- # gem 'bcrypt-ruby', '~> 3.0.0'
- 
- # Use unicorn as the app server
- # gem 'unicorn'
- 
- # Use Capistrano for deployment
- # gem 'capistrano', group: :development
- 
- # Use debugger
- # gem 'debugger', group: [:development, :test]
-```
-
-
-####Add
-```
- end
-```
-
-
 ####Becomes
 ```
  source 'https://rubygems.org'
@@ -143,8 +116,36 @@ Much of programming time is spent reading.  By improving organization of this fi
  end
  
  group :test do
-   gem 'database_cleaner'
-   gem 'launchy'
+
+```
+
+
+####Remove
+```
+ end
+ 
+ # Use ActiveModel has_secure_password
+ # gem 'bcrypt-ruby', '~> 3.0.0'
+ 
+ # Use unicorn as the app server
+ # gem 'unicorn'
+ 
+ # Use Capistrano for deployment
+ # gem 'capistrano', group: :development
+ 
+ # Use debugger
+ # gem 'debugger', group: [:development, :test]
+```
+
+
+####Add
+```
+ end
+```
+
+
+####Becomes
+```
    gem 'shoulda-matchers'
    gem 'simplecov', require: false
    gem 'valid_attribute'

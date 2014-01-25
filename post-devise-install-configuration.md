@@ -5,8 +5,7 @@ title: Post Devise install configuration
 
 <h1 id="main">Post Devise install configuration</h1>
 
-
-When you run the Devise installer, it provides directions for you to follow after installing.###Update file `app/views/layouts/application.html.erb`
+###Update file `app/views/layouts/application.html.erb`
 
 ####To
 ```
@@ -17,12 +16,6 @@ When you run the Devise installer, it provides directions for you to follow afte
 
 ####Becomes
 ```
- <!DOCTYPE html>
- <html>
- <head>
-   <title>Blog</title>
-   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
    <%= csrf_meta_tags %>
  </head>
  <body>
@@ -31,7 +24,6 @@ When you run the Devise installer, it provides directions for you to follow afte
  <%= yield %>
  
  </body>
- </html>
 
 ```
 
@@ -46,13 +38,6 @@ When you run the Devise installer, it provides directions for you to follow afte
 
 ####Becomes
 ```
-   # Print deprecation notices to the Rails logger.
-   config.active_support.deprecation = :log
- 
-   # Raise an error on page load if there are pending migrations
-   config.active_record.migration_error = :page_load
- 
-   # Debug mode disables concatenation and preprocessing of assets.
    # This option may cause significant delays in view rendering with a large
    # number of complex assets.
    config.assets.debug = true
