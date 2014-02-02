@@ -8,7 +8,6 @@
     <meta name="author" content="">
     <!-- styles -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://getbootstrap.com/docs-assets/css/docs.css" />
     <style type="text/css">
       /* override the bootstrap docs css */
       body {
@@ -31,13 +30,30 @@
       h1, h2 {
         text-transform: uppercase;
       }
+      .bs-sidebar li.active a {
+        padding-left: 18px;
+        font-weight: 700;
+        color: #563d7c;
+        background-color: transparent;
+        border-left: 2px solid #563d7c;
+      }
+      .bs-sidebar li a {
+        padding: 4px 20px;
+        font-size: 13px;
+      }
+      .bs-sidebar li a:hover {
+        color: #563d7c;
+      }
+      footer {
+        height: 50px;
+      }
     </style>
   </head>
   <body>
     <div class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">Implement Devise with BDD
+          <a href="/" class="navbar-brand">Implement Devise Using BDD
           </a>
         </div>
       </div>
@@ -54,8 +70,10 @@
         <div class="col-md-9">
           {{content}}
           <hr />
-          <div class="previous-page  pull-left"></div>
-          <div class="next-page  pull-right"></div>
+          <footer>
+            <div class="previous-page  pull-left"></div>
+            <div class="next-page  pull-right"></div>
+          </footer>
         </div>
       </div>
     </div>
