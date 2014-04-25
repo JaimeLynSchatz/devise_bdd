@@ -5,6 +5,7 @@ title: Post Devise install configuration
 
 <h1 id="main">Post Devise install configuration</h1>
 
+
 ###Update file `app/views/layouts/application.html.erb`
 
 ####To

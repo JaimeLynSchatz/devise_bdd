@@ -5,6 +5,7 @@ title: Add user_id to posts
 
 <h1 id="main">Add user_id to posts</h1>
 
+
 ###Create file `db/migrate/20140120173641_add_user_id_to_posts.rb`
 
 ####Add

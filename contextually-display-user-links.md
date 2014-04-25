@@ -5,6 +5,7 @@ title: Contextually display user links
 
 <h1 id="main">Contextually display user links</h1>
 
+
 ###Update file `app/views/welcome/index.html.erb`
 
 ####Remove

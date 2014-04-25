@@ -5,6 +5,7 @@ title: Add Sign up link on home page
 
 <h1 id="main">Add Sign up link on home page</h1>
 
+
 ###Update file `app/views/welcome/index.html.erb`
 
 ####Remove

@@ -5,6 +5,7 @@ title: Add association expectations to User and Post
 
 <h1 id="main">Add association expectations to User and Post</h1>
 
+
 ###Update file `spec/models/post_spec.rb`
 
 ####Add

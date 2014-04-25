@@ -5,6 +5,7 @@ title: Add user_id to comments
 
 <h1 id="main">Add user_id to comments</h1>
 
+
 ###Create file `db/migrate/20140120174542_add_user_id_to_comments.rb`
 
 ####Add

@@ -5,6 +5,7 @@ title: Update authentication feature tests
 
 <h1 id="main">Update authentication feature tests</h1>
 
+
 ###Update file `spec/features/posts_spec.rb`
 
 ####Add

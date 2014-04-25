@@ -5,6 +5,7 @@ title: Update posts controller spec
 
 <h1 id="main">Update posts controller spec</h1>
 
+
 ###Update file `app/controllers/posts_controller.rb`
 
 ####Change

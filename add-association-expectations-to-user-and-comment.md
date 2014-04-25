@@ -5,6 +5,7 @@ title: Add association expectations to User and Comment
 
 <h1 id="main">Add association expectations to User and Comment</h1>
 
+
 ###Update file `spec/models/comment_spec.rb`
 
 ####Add

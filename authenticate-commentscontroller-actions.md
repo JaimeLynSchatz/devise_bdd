@@ -5,6 +5,7 @@ title: Authenticate CommentsController actions
 
 <h1 id="main">Authenticate CommentsController actions</h1>
 
+
 ###Update file `app/controllers/comments_controller.rb`
 
 ####Add

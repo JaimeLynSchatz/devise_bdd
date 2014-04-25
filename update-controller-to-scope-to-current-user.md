@@ -5,6 +5,7 @@ title: Update controller to scope to current_user
 
 <h1 id="main">Update controller to scope to current_user</h1>
 
+
 ###Update file `app/controllers/posts_controller.rb`
 
 ####Change

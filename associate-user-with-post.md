@@ -5,6 +5,7 @@ title: Associate User with Post
 
 <h1 id="main">Associate User with Post</h1>
 
+
 ###Update file `app/models/post.rb`
 
 ####Add

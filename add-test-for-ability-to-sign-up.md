@@ -5,6 +5,7 @@ title: Add test for ability to sign up
 
 <h1 id="main">Add test for ability to sign up</h1>
 
+
 ###Create file `spec/features/anonymous_can_sign_up_spec.rb`
 
 ####Add

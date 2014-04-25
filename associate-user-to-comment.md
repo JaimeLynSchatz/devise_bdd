@@ -5,6 +5,7 @@ title: Associate User to Comment
 
 <h1 id="main">Associate User to Comment</h1>
 
+
 ###Update file `app/models/comment.rb`
 
 ####Add

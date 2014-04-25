@@ -5,6 +5,7 @@ title: Test for sign in and sign out
 
 <h1 id="main">Test for sign in and sign out</h1>
 
+
 ###Create file `spec/features/user_can_sign_out_spec.rb`
 
 ####Add

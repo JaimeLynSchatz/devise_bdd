@@ -5,6 +5,7 @@ title: Add links to sign in and sign out
 
 <h1 id="main">Add links to sign in and sign out</h1>
 
+
 ###Update file `app/views/welcome/index.html.erb`
 
 ####Add
